@@ -20,3 +20,6 @@ bun dev
 
 ## See the React counterpart
 https://github.com/FelipeEmos/lucide-react-test
+
+## Issue on Github
+- https://github.com/lucide-icons/lucide/issues/2371
