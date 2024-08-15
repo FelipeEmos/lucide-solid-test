@@ -1,28 +1,22 @@
-## Usage
+## Why this repo?
 
-```bash
-$ npm install # or pnpm install or yarn install
+I was just testing the performance of my solid app and it was taking too long to load.
+I figured it was because of this icon lib and here's my test result...
+
+## How to run for yourself
+Install bun on your machine and then run:
+```console
+bun install
+bun dev
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+## Results
 
-## Available Scripts
+|Lib|[Lucide React](https://github.com/FelipeEmos/lucide-react-test)|Lucide Solid|
+|---|---|---|
+|Time| 250 ms | 3500 ms |
+|Amounts of Icons being loaded|1|all of them|
+|Screenshots|![REACT](/docs/react.png)|![SOLID](/docs/solid.png)|
 
-In the project directory, you can run:
-
-### `npm run dev`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-Learn more about deploying your application with the [documentations](https://vitejs.dev/guide/static-deploy.html)
+## See the React counterpart
+https://github.com/FelipeEmos/lucide-react-test
